@@ -6,6 +6,7 @@ CREATE TABLE `key_store` (
    `algorithm` varchar(50)    NOT NULL ,
    `date_creation` varchar(50)    NOT NULL ,
    `date_expire` varchar(50)    NOT NULL ,
+   `parent` varchar(50)    NOT NULL ,
    `serial_number` varchar(50)    NOT NULL ,
    `owner_trust` varchar(50)    NOT NULL ,
    `user_id` varchar(50)    NOT NULL ,
